@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url(./imgs/th.jfif);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+section h2 {
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+article {
+    background: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+article header h3 {
+    margin: 0;
+}
+
+article header p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+aside {
+    flex: 1;
+    background: #e6e6e6;
+    padding-bottom: 41%;
+    float: left;
+}
+
+aside h2 {
+    background: #e6e6e6; 
+    padding: 10px;
+    border-bottom: 5px solid #ccc;
+}
+
+aside ol {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+aside ol li {
+    margin-bottom: 0px;
+}
+
+aside ol li a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+aside ol li a:hover {
+    text-decoration: underline;
+}
+
+.livro{
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.livro img {
+    height: 230px;
+    padding: 20px;
+}
+
+.livro span {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+#div1{
+    width: 33%;
+    position: absolute;
+}
+
+#div2{
+    width: 33%;
+    left: 43%;
+    position: absolute;
+}
+
+#div3{
+    width: 33%;
+    position: absolute;
+    left: 63%;
+}
+
+#div1 img, #div2 img, #div3 img {
+    height: 100%;
+    margin-top: 20%;
+}
+
+#div1 img, #div2 img, #div3 img:hover{
+    cursor: pointer;
+}
+
+#preco{
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
+    background-image: url(./imgs/th.jfif);
+    color: #fff;
+    padding: 10px;
+    clear:left;
+}
+
+#redes{
+    text-align: center;
+    position: absolute;
+    margin-top: 38%;
+    left: 7%;
+}
+
+#redes img{
+    width: 25px;
+}
+
+form{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}

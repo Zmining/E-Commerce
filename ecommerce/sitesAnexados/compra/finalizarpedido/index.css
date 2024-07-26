@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-image: url(../../../imgs/th.jfif);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#fim h1{
+    left: 49%;
+    align-items: center;
+    text-align: center;
+    background: #f8f8f8;
+    color: rgb(65, 65, 65);
+    border-bottom: 2px solid #ccc;
+    height: 100%;
+}
+
+#titulo{
+    position: absolute;
+    left: 13%;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+span h3{
+    position: absolute;
+    left: 69%;
+    top: 24%;
+}
+
+#info img{
+    width: 25%;
+    height: 11%;
+    padding-top: 5%;
+    padding-left: 15%;
+    border-radius: 10%;
+}
+
+#desc{
+    position: absolute;
+    left: 48%;
+    top: 35%;
+}
+
+#preco{
+    position: absolute;
+    text-align: center;
+    text-decoration:underline;
+    left: 60%;
+    top: 70%;
+    width: 30%;
+    height: 7%;
+    font-size: 30px;
+}
+
+#juros{
+    position: absolute;
+    text-align: center;
+    text-decoration:underline;
+    left: 60%;
+    top: 75%;
+    width: 30%;
+    height: 7%;
+    font-size: 10px
+}
+
+form{
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    text-align: center;
+}
+
+#compra{
+    top: 180%;
+    left: 30%;
+    position: absolute;
+    height: 30%;
+    width: 40%;
+}
+
+#compra:hover{
+    background-color: rgb(207, 255, 192);
+    color: black;
+    text-decoration: underline
+}
+
+#autor{
+    position: absolute;
+    top: 92%;
+    left: 23%;
+}

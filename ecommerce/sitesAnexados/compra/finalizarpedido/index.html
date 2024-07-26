@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Livro</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" type="imagex/png" href="../../../imgs/icone.png">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>E-Books Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../../eCommerce.html">Livros</a></li>
+                    <li><a href="../../registro/registroLivro.html">Registro de livros</a></li>
+                    <li><a href="../../contato/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <span id="fim"><h1>Finalizar pedido</h1></span> <br>
+        <div id="info">
+            <span>
+                <h1 id="titulo">Titulo</h1>
+            </span><br>
+            <div>
+                <img src="" alt="IMAGEM DO LIVRO" id="imgLivro1">
+            </div>
+            <span><strong id="preco">VALOR</strong></span>
+            <span id="juros">OU ATÉ 3X SEM JUROS</span>
+        </div>
+        <form action="../../../eCommerce.html" method="get">
+            <div id="nome">
+                <label for="nome">Digite seu nome completo:</label>
+                <input type="text" name="nomeCompleto" id="nomeCompleto">
+                </div>
+            <div id="email">
+                <label for="email">Digite seu Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div id="cep">
+                <label for="cep">Digite seu Cep:</label>
+                <input type="number" name="cep" id="cep">
+            </div>
+            <div id="parcelamento">
+                <label for="parcela">Parcela</label><br>
+                <input type="radio" name="parcela" id="parcela1" value="1vez">
+                <label for="parcela1">1x de <span id="preco1">VALOR</span></label><br>
+                <input type="radio" name="parcela" id="parcela2" value="2vez">
+                <label for="parcela2">2x de <span id="preco2">VALOR</span></label><br>
+                <input type="radio" name="parcela" id="parcela3" value="3vez">
+                <label for="parcela3">3x de <span id="preco3">VALOR sem</span></label>                
+            </div>
+            <button id="compra">FINALIZAR PEDIDO
+            </button>
+        </form>
+    </main>
+</body>
+</html>

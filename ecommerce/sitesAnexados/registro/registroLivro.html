@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="../../eCommerce.css">
+    <link rel="shortcut icon" type="imagex/png" href="../../imgs/icone.png">
+</head>
+<body style="align-items: center;">
+    <header>
+        <h1>E-Books Online</h1>
+        <nav>
+            <ul>
+                <li><a href="../../eCommerce.html">Livros</a></li>
+                <li><a href="../contato/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="../../eCommerce.html" method="get">
+        </table>
+        <table border="1">
+            <td height="100" rowspan="0">
+                <label for="sidebar">| |</label>
+            </td>
+            <th height="50" colspan="3">Cadastro de Livros</th colspan="2">
+            <tr>
+                <td>
+                    <label for="titulo">Título do livro:</label>
+                </td>
+                <td>
+                    <input type="text" id="titulo" name="titulo", required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="autor">Autor do livro:</label>
+                </td>
+                <td>
+                    <input type="text" id="autor" name="autor" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="genero">Gênero do Livro</label>
+                </td>
+                <td>
+                    <select name="genero" id="genero" required>
+                        <option value="">Selecione o genero...</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Ação">Ação</option>
+                        <option value="Cult">Cult</option>
+                        <option value="Sci-Fi">Sci-Fi</option>
+                        <option value="Científico">Científico</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                <label aria-required="true">Formato:</label>
+                </th>
+                <td>
+                    <input type="checkbox" name="impresso" id="formato" value="impresso">
+                    <label for="impresso">Impresso</label>
+                    <input type="checkbox" name="digital" id="formato" value="digital">
+                    <label for="digital">Digital</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">
+                    <label for="descricao">Descrição</label>
+                </td>
+                <td rowspan="1">
+                    <textarea name="descricao" id="descricao" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Senha">Senha de Acesso:</label>
+                </td>
+                <td>
+                    <input type="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Cadastrar</button>
+                </td>
+                <td>
+                    <input type="reset" value="Limpar">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
