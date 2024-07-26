@@ -31,7 +31,7 @@ header h1 {
 
 #titulo{
     position: absolute;
-    left: 13%;
+    left: 15%;
 }
 
 
@@ -64,12 +64,6 @@ span h3{
     padding-top: 5%;
     padding-left: 15%;
     border-radius: 10%;
-}
-
-#desc{
-    position: absolute;
-    left: 48%;
-    top: 35%;
 }
 
 #preco{
@@ -113,10 +107,4 @@ form{
     background-color: rgb(207, 255, 192);
     color: black;
     text-decoration: underline
-}
-
-#autor{
-    position: absolute;
-    top: 92%;
-    left: 23%;
 }
